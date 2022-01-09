@@ -1,0 +1,39 @@
+/* font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Questrial', sans-serif; */
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:rgb(204, 190, 190);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Questrial', sans-serif;
+}
+
+.title{
+    margin:10px 0 0;
+    text-align:center;
+}
+
+.container{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* max-width:1000px; */
+}
+
+.container img{
+    object-fit: cover;
+    margin: 5px;
+    height:300px;
+    width:300px;
+    max-width:100%;
+    border-radius:30px;
+}
